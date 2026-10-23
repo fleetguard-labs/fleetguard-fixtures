@@ -1,0 +1,86 @@
+{
+  "snapshot": {
+    "schemaVersion": 1,
+    "network": "testnet",
+    "ledger": 5348279,
+    "managers": [
+      {
+        "id": "CCFUY4ANTFFX4V2EXIIJCOETT5YXTMUIFDYKVRKYFLEZEHGX6B66DAL3",
+        "tag": "stable",
+        "wasmHash": "6481d897ca081530673086072830fc5b987866f01c4227c17944e41410abb1f8",
+        "administrator": "Unknown \u2014 inspect manager authorization",
+        "administratorVerified": false
+      }
+    ],
+    "instances": [
+      {
+        "id": "CBOGFA56BYJU7TNLY7AAN6EMDQFDJWO4JKU5TWEWYLTZF26DVTFQB7XJ",
+        "owner": "CCFUY4ANTFFX4V2EXIIJCOETT5YXTMUIFDYKVRKYFLEZEHGX6B66DAL3",
+        "tag": "stable"
+      },
+      {
+        "id": "CDYVEH2FSMTVIA2DEGI6UN76TQ3BUPFTBGNVXJR4FBMWDRAONUWQDSGH",
+        "owner": "CCFUY4ANTFFX4V2EXIIJCOETT5YXTMUIFDYKVRKYFLEZEHGX6B66DAL3",
+        "tag": "stable"
+      },
+      {
+        "id": "CALHSM64OGCTOSCKEGJD5QQJFEF3VMABLU7Z3MNGUEUHYF6QVZLEQO27",
+        "owner": "CCFUY4ANTFFX4V2EXIIJCOETT5YXTMUIFDYKVRKYFLEZEHGX6B66DAL3",
+        "tag": "stable"
+      }
+    ],
+    "provenance": {
+      "source": "https://soroban-testnet.stellar.org",
+      "startLedger": 5348278,
+      "endLedger": 5348279,
+      "atomic": false,
+      "scope": "Explicit registered instances only",
+      "capturedAt": "2026-10-23T14:16:24.817Z"
+    }
+  },
+  "proposal": {
+    "owner": "CCFUY4ANTFFX4V2EXIIJCOETT5YXTMUIFDYKVRKYFLEZEHGX6B66DAL3",
+    "tag": "stable",
+    "expectedHash": "6481d897ca081530673086072830fc5b987866f01c4227c17944e41410abb1f8",
+    "nextHash": "b7273b3111b406d7191173a31eec27692cac40ebe6ed78c5db3440c6fb2587f8",
+    "readyLedger": 5348286
+  },
+  "beforeInterface": [
+    {
+      "name": "value",
+      "inputs": [],
+      "output": "i128"
+    },
+    {
+      "name": "version",
+      "inputs": [],
+      "output": "u32"
+    },
+    {
+      "name": "add",
+      "inputs": [
+        "i128"
+      ],
+      "output": "i128"
+    }
+  ],
+  "afterInterface": [
+    {
+      "name": "value",
+      "inputs": [],
+      "output": "i128"
+    },
+    {
+      "name": "version",
+      "inputs": [],
+      "output": "u32"
+    },
+    {
+      "name": "add",
+      "inputs": [
+        "i128"
+      ],
+      "output": "i128"
+    }
+  ]
+}
